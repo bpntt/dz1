@@ -4,9 +4,9 @@ Console.WriteLine("Write your number 2");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a>b)
 {  
-Console.WriteLine(a);
+Console.WriteLine($"число {a} больше числа {b}");
 }
 else
 {
-    Console.WriteLine(b);
+    Console.WriteLine($"число {b} больше числа {a}");
 }
